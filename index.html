@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Prueba Bootstrap</title>
+</head>
+<body>
+    <header>
+        <h1>Pagina de prueba</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Formulario de prueba</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main class="container">
+        <div class="row">
+            <div class="col-6 p-3 border bg-light">
+                <h2>Columna1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sed vel praesentium ullam dolorem a repudiandae ex. Temporibus sunt, placeat quam, nisi fugiat atque, ducimus quisquam delectus enim necessitatibus tempore.</p>
+            </div>
+            
+                <div class="col-3 p-3 border bg-secondary text-light">
+                    <h2>Columna2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sed vel praesentium ullam dolorem a repudiandae ex. Temporibus sunt, placeat quam, nisi fugiat atque, ducimus quisquam delectus enim necessitatibus tempore.</p>
+                </div>
+                
+                    <div class="col-3 p-3 border bg-light">
+                        <h2>Columna3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sed vel praesentium ullam dolorem a repudiandae ex. Temporibus sunt, placeat quam, nisi fugiat atque, ducimus quisquam delectus enim necessitatibus tempore.</p>
+                    </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-3 bg-info text-light">
+                <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta rem, sapiente consequatur aspernatur minus non nobis qui doloribus. Numquam deleniti aut molestiae sunt perspiciatis quidem tenetur dolor commodi magni recusandae.
+                </p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+    <div class="container">
+        <h1>Registrate</h1>
+        <div class="dropdown">
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Selecciona tu país
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+        </div>
+
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+</html>
